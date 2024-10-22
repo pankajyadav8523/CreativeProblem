@@ -1,0 +1,19 @@
+Creative problem - 
+1. Slow Down (it doesn't means slow down your progress)
+2. Don't feel pressure
+3. Understand the question
+4. get rid out of living state
+5. Choose fight/dance
+6. Pretend that you have infinite time to solve the problem
+7. While solving problem start with timer
+
+
+Pseaudo Code of local minima of binary tree -
+a) Just Finding one local minima
+1. Starts from root find it's children value, if both are greater then root will be minima.
+2. if one small and other or greater, move in the direction of small child and check it's children, if both are smaller then report the local minima (left or right).
+3. if we move in the direction of always greater child w.r.t root then we will never get local minima.
+if we have self balanced binary tree and we find local minima after traversing the node in only one direction either left or right w.r.t root then time complexity will be log(n).
+otherwise it will take O(n) time in the worst case.
+
+
